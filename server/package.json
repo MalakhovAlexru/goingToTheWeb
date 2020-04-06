@@ -1,0 +1,26 @@
+{
+  "name": "testproj",
+  "version": "1.0.0",
+  "description": "node on docker (manger and client)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "srv": "./node_modules/.bin/nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "testProj"
+  ],
+  "author": "alex malakhov <malakhovspb@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/node": "^13.9.8",
+    "nodemon": "^2.0.2"
+  }
+}
